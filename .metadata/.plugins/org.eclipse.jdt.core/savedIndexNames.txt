@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+/Users/arman/BridgeLabz-Training/.metadata/.plugins/org.eclipse.jdt.core
-4114577152.index
-1865797976.index
