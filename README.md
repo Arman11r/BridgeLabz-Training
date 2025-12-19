@@ -13,7 +13,27 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 ---
 
-## Today’s Work (2025-12-18)
+## Daily Progress Log
+
+### 📅 2025-12-16
+- Solved **5 LeetCode problems**
+- Focus areas:
+  - Logic building
+  - Problem-solving approach
+  - Basic algorithmic thinking
+
+---
+
+### 📅 2025-12-17
+- Practiced **introductory Core Java problems**
+- Covered:
+  - Basic syntax
+  - Input/output handling
+  - Simple arithmetic and logic programs
+
+---
+
+### 📅 2025-12-18
 
 ### 1) Programming Elements
 
@@ -70,6 +90,12 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 ---
 
 ## Changelog
+
+### 📅 2025-12-16
+- Solved **5 LeetCode problems**
+
+### 📅 2025-12-17
+- Completed **introductory Core Java practice problems**
 
 ### 📅 2025-12-18
 - Added **Programming Elements – Level 1** codes
