@@ -1,1 +1,17 @@
+
+.metadata/
+.class
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.iml
