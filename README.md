@@ -9,7 +9,7 @@ Currently, I am actively working on the **`core-java-practice`** branch.
 
 ## Active Branch: `core-java-practice`
 
-This branch contains my **Core Java learning and practice**, organized topic-wise into folders.
+This branch contains my **Core Java learning and practice**, organized topic-wise into folders as part of BridgeLabz training.
 
 ---
 
@@ -27,8 +27,23 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - Folder link (GitHub):  
   https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements/level-2
 
-> **Contents:**  
-> Core Java programs based on daily BridgeLabz practice, improving logic building, conditions, loops, and basic problem-solving skills.
+---
+
+### 2) Control Flow Statements
+
+- Added **Control Flow** based Core Java programs.
+- Covers usage of:
+  - `if`, `if-else`
+  - `else-if` ladder
+  - `switch-case`
+  - Looping constructs (`for`, `while`, `do-while`)
+- Focused on:
+  - Decision making
+  - Conditional logic
+  - Iteration and flow control
+
+- Folder link (GitHub):  
+  https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow
 
 ---
 
@@ -37,6 +52,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - **core-java-practice/**
   - Topic-wise Core Java practice  
     - programming-elements  
+    - control-flow  
     - OOP (to be added)  
     - collections (to be added)  
     - exceptions (to be added)  
@@ -49,7 +65,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - Use the **branch selector** on GitHub to switch between `main` and `core-java-practice`.
 - Each topic folder contains:
   - Java source code files
-  - README or comments (where required) explaining the programs
+  - Inline comments explaining logic and flow
 
 ---
 
@@ -58,6 +74,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 ### 📅 2025-12-18
 - Added **Programming Elements – Level 1** codes
 - Added **Programming Elements – Level 2** codes
+- Added **Control Flow** based Core Java programs
 
 ---
 
