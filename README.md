@@ -33,35 +33,22 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 ---
 
-### 📅 2025-12-19
-
-### 1) Programming Elements
-
-#### ✅ Level 1
-- Added **Level 1** Core Java programs covering foundational programming constructs.
-- Folder link (GitHub):  
-  https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements
-
-#### ✅ Level 2
-- Added **Level 2** Core Java programs focusing on slightly advanced logic and problem-solving.
-- Folder link (GitHub):  
-  https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements/level-2
+### 📅 2025-12-18
+- Worked on **Programming Elements** in Core Java
+- Implemented programs covering:
+  - Variables and data types
+  - Operators
+  - Basic input/output
+  - Foundational problem-solving logic
 
 ---
 
-### 2) Control Flow Statements
-
-- Added **Control Flow** based Core Java programs.
-- Covers usage of:
-  - `if`, `if-else`
-  - `else-if` ladder
+### 📅 2025-12-19
+- Worked on **Control Flow** in Core Java
+- Implemented programs using:
+  - `if`, `if-else`, `else-if`
   - `switch-case`
   - Looping constructs (`for`, `while`, `do-while`)
-- Focused on:
-  - Decision making
-  - Conditional logic
-  - Iteration and flow control
-
 - Folder link (GitHub):  
   https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow
 
@@ -97,9 +84,10 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 ### 📅 2025-12-17
 - Completed **introductory Core Java practice problems**
 
+### 📅 2025-12-18
+- Added **Programming Elements** Core Java programs
+
 ### 📅 2025-12-19
-- Added **Programming Elements – Level 1** codes
-- Added **Programming Elements – Level 2** codes
 - Added **Control Flow** based Core Java programs
 
 ---
@@ -108,5 +96,5 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 As I continue practicing on `core-java-practice`, I will keep updating this README with:
 - Direct links to newly added folders/modules  
-- Daily learning summaries (what I learned & implemented)  
+- Daily learning summaries  
 - References to BridgeLabz problem statements where applicable  
