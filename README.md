@@ -54,16 +54,19 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 ---
 
-## Repository Structure (High-level)
+## Repository Structure
 
-- **core-java-practice/**
-  - Topic-wise Core Java practice  
-    - programming-elements 👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)  
-    - control-flow 👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)  
-    - OOP (to be added)  
-    - collections (to be added)  
-    - exceptions (to be added)  
-    - and more as learning progresses
+
+BridgeLabz-Training (core-java-practice branch)
+└── core-java-practice
+    ├── gcr-codebase
+    │   ├── programming-elements
+    │   ├── control-flow
+    │   ├── arrays
+    ├── scenerio-based
+    └── leetcode-codebase
+
+
 
 ---
 
