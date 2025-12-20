@@ -43,11 +43,11 @@ class CoffeeCounter {
             double totalAmount = bill + gst;
             //now printing the bill details here with everything ordered and the price :
             System.out.println("\n----- BILL DETAILS -----");
-            System.out.println("Coffee Type : " + coffeeType);
-            System.out.println("Quantity    : " + quantity);
-            System.out.println("Base Bill   : ₹" + bill);
-            System.out.println("GST (5%)    : ₹" + gst);
-            System.out.println("Total Bill  : ₹" + totalAmount);
+            System.out.println("| Coffee Type : " + coffeeType);
+            System.out.println("| Quantity    : " + quantity);
+            System.out.println("| Base Bill   : ₹" + bill);
+            System.out.println("| GST (5%)    : ₹" + gst);
+            System.out.println("| Total Bill  : ₹" + totalAmount);
             System.out.println("---------------------------");
             System.out.println("Thank you for your order!, Visit again");
             System.out.println("---------------------------");
