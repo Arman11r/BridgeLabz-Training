@@ -21,6 +21,8 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Logic building
   - Problem-solving approach
   - Basic algorithmic thinking
+  - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
+
 
 ---
 
@@ -30,6 +32,8 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Basic syntax
   - Input/output handling
   - Simple arithmetic and logic programs
+  - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
+
 
 ---
 
@@ -83,9 +87,11 @@ BridgeLabz-Training (core-java-practice branch)
 
 ### 📅 2025-12-16
 - Solved **5 LeetCode problems**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
 
 ### 📅 2025-12-17
 - Completed **introductory Core Java practice problems**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
 
 ### 📅 2025-12-18
 - Added **Programming Elements** Core Java programs  
