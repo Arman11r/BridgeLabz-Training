@@ -22,7 +22,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Logic building
   - Problem-solving approach
   - Basic algorithmic thinking
-- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/leet-code-codebase)**
 
 ---
 
@@ -32,7 +32,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Basic syntax
   - Input/output handling
   - Simple arithmetic and logic programs
-- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
@@ -43,7 +43,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Operators
   - Basic input/output
   - Foundational problem-solving logic
-- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
