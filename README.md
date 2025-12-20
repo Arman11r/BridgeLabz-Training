@@ -56,7 +56,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 ## Repository Structure
 
-
+```text
 BridgeLabz-Training (core-java-practice branch)
 └── core-java-practice
     ├── gcr-codebase
