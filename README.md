@@ -22,7 +22,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Logic building
   - Problem-solving approach
   - Basic algorithmic thinking
-- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/leet-code-codebase)**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
 
 ---
 
