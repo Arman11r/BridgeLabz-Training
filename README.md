@@ -39,7 +39,8 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Variables and data types
   - Operators
   - Basic input/output
-  - Foundational problem-solving logic
+  - Foundational problem-solving logic  
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
 
 ---
 
@@ -48,9 +49,8 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - Implemented programs using:
   - `if`, `if-else`, `else-if`
   - `switch-case`
-  - Looping constructs (`for`, `while`, `do-while`)
-- Folder link (GitHub):  
-  https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow
+  - Looping constructs (`for`, `while`, `do-while`)  
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)**
 
 ---
 
@@ -58,8 +58,8 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 - **core-java-practice/**
   - Topic-wise Core Java practice  
-    - programming-elements  
-    - control-flow  
+    - programming-elements 👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)  
+    - control-flow 👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)  
     - OOP (to be added)  
     - collections (to be added)  
     - exceptions (to be added)  
@@ -85,10 +85,12 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - Completed **introductory Core Java practice problems**
 
 ### 📅 2025-12-18
-- Added **Programming Elements** Core Java programs
+- Added **Programming Elements** Core Java programs  
+  👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)
 
 ### 📅 2025-12-19
-- Added **Control Flow** based Core Java programs
+- Added **Control Flow** based Core Java programs  
+  👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
