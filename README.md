@@ -11,8 +11,9 @@ Currently, I am actively working on the **`core-java-practice`** branch.
 
 This branch contains my **Core Java learning and practice**, organized topic-wise into folders as part of BridgeLabz training.
 
----
+#WEEK 1
 
+---
 ## Daily Progress Log
 
 ### 📅 2025-12-16
