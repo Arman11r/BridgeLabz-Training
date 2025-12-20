@@ -11,10 +11,10 @@ Currently, I am actively working on the **`core-java-practice`** branch.
 
 This branch contains my **Core Java learning and practice**, organized topic-wise into folders as part of BridgeLabz training.
 
-#WEEK 1
-
 ---
-## Daily Progress Log
+# Daily Progress Log
+---
+## 🗓️ Week 1 (Foundations & Basics)
 
 ### 📅 2025-12-16
 - Solved **5 LeetCode problems**
@@ -22,8 +22,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Logic building
   - Problem-solving approach
   - Basic algorithmic thinking
-  - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
-
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
 
 ---
 
@@ -33,8 +32,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Basic syntax
   - Input/output handling
   - Simple arithmetic and logic programs
-  - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
-
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
 
 ---
 
@@ -44,7 +42,7 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
   - Variables and data types
   - Operators
   - Basic input/output
-  - Foundational problem-solving logic  
+  - Foundational problem-solving logic
 - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
 
 ---
@@ -54,8 +52,13 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 - Implemented programs using:
   - `if`, `if-else`, `else-if`
   - `switch-case`
-  - Looping constructs (`for`, `while`, `do-while`)  
+  - Looping constructs (`for`, `while`, `do-while`)
 - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)**
+
+---
+
+> 🔜 **Next Week:**  
+> **Week 2** will start from **Monday**, focusing on deeper Core Java topics and problem-solving.
 
 ---
 
