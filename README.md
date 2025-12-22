@@ -12,8 +12,11 @@ Currently, I am actively working on the **`core-java-practice`** branch.
 This branch contains my **Core Java learning and practice**, organized topic-wise into folders as part of BridgeLabz training.
 
 ---
+
 # Daily Progress Log
+
 ---
+
 ## 🗓️ Week 1 (Foundations & Basics)
 
 ### 📅 2025-12-16
@@ -57,6 +60,13 @@ This branch contains my **Core Java learning and practice**, organized topic-wis
 
 ---
 
+### 📅 2025-12-20
+- Practiced **Arrays questions** and **Scenario-based questions**
+- 👉 **[View Arrays Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)**
+- 👉 **[View Scenario-Based Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenerio-based)**
+
+---
+
 > 🔜 **Next Week:**  
 > **Week 2** will start from **Monday**, focusing on deeper Core Java topics and problem-solving.
 
@@ -93,18 +103,30 @@ BridgeLabz-Training (core-java-practice branch)
 - Solved **5 LeetCode problems**
 - 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
 
+---
+
 ### 📅 2025-12-17
 - Completed **introductory Core Java practice problems**
-- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)**
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
+
+---
 
 ### 📅 2025-12-18
-- Added **Programming Elements** Core Java programs  
-  👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/programming-elements)
+- Added **Programming Elements** Core Java programs
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
+
+---
 
 ### 📅 2025-12-19
-- Added **Control Flow** based Core Java programs  
-  👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+- Added **Control Flow** based Core Java programs
+- 👉 **[View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)**
 
+---
+
+### 📅 2025-12-20
+- Added **Arrays** and **Scenario-Based** Core Java programs
+- 👉 **[View Arrays Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)**
+- 👉 **[View Scenario-Based Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenerio-based)**
 ---
 
 ## Next Updates
