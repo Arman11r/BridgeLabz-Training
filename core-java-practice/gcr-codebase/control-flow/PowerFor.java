@@ -21,6 +21,6 @@ class PowerFor {
             result = result * number;
         }
         //output given here
-        System.out.println("Result is: " + result);
+        System.out.println("Result is. : " + result);
     }
 }
