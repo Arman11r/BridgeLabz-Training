@@ -6,9 +6,9 @@ This repository tracks my **Core Java practice** as part of BridgeLabz training,
 
 ---
 
-## 🌿 Active Branch: `core-java-practice`
+## 🌿 Active Branch: `oops`
 
-All current work is maintained in the **`core-java-practice`** branch.
+All current work is maintained in the **`oops`** branch.
 
 ---
 
