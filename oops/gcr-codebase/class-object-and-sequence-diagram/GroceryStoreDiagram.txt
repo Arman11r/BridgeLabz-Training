@@ -111,16 +111,3 @@ Customer              BillGenerator
    |                         |
    | displayBill()           |
 
------------------------------------------------------
-summary
------------------------------------------------------
-
-- class diagram shows grocery system structure
-- object diagram shows customer with products
-- sequence diagram shows billing flow
-- composition used between customer and product
-- billgenerator calculates final amount
-
-=====================================================
-END OF FILE
-=====================================================
