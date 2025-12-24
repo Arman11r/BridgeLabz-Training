@@ -1,6 +1,6 @@
 # 🚀 BridgeLabz-Training
 
-**BridgeLabz – Capgemini Training Repository**
+**BridgeLabz Training Repository**
 
 This repository tracks my **Core Java practice** as part of BridgeLabz training, organized **date-wise** for clear progress visibility.
 
