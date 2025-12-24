@@ -1,0 +1,116 @@
+=====================================================
+Sample Problem 1: School Results Application
+===================================================
+
+1. Class Diagram
+-----------------------------------------------------
+
+description:
+this application is used to calculate student results.
+a student studies many subjects and grade is calculated
+using marks of subjects.
+
+classes used:
+- Student
+
+- Subject
+- GradeCalculator
+
+relationships:
+- Student and Subject has aggregation relation
+- GradeCalculator uses Student to calculate grade
+
+aggregation is used because subject can exist without
+student also.
+
+class diagram ::
+
+
+        +------------------+
+        |     Student      |
+        +------------------+
+        | - name           |
+        | - rollNumber     |
+        +------------------+
+        | + viewResult()   |
+        +------------------+
+                ◇
+                | aggregation
+                |
+        +------------------+
+        |     Subject      |
+        +------------------+
+        | - subjectName    |
+        | - marks          |
+        +------------------+
+
+        +------------------------+
+        |   GradeCalculator      |
+        +------------------------+
+        | + calculateGrade()     |
+        +------------------------+
+                   ^
+                   |
+                 uses
+
+note:
+◇ symbol shows aggregation relationship
+
+
+2. Object Diagram
+-----------------------------------------------------
+
+description:
+object diagram shows real objects at a particular time.
+it shows values inside the objects.
+
+example:
+student name is john
+subjects are maths and science
+marks are 90 and 85
+
+object diagram (text format):
+
+student1 : Student
+
+name = "John"
+
+subject1 : Subject
+
+subjectName = "Maths"
+marks = 90
+
+subject2 : Subject
+
+subjectName = "Science"
+marks = 85
+
+3. Sequence Diagram
+-----------------------------------------------------
+
+description:
+sequence diagram shows how objects talk to each other
+step by step.
+
+scenario:
+student wants to see his grade.
+student asks grade calculator.
+calculator calculates grade and return result.
+
+actors:
+- Student
+- GradeCalculator
+
+sequence diagram (text format):
+
+Student            GradeCalculator
+   |                       |
+   | requestGrade()        |
+   |---------------------> |
+   |                       |
+   | calculateGrade()      |
+   |<--------------------- |
+   |                       |
+   | displayGrade()        |
+
+
