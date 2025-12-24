@@ -1,6 +1,6 @@
 # BridgeLabz-Training
 
-**BridgeLabz – Capgemini Training Repository**
+**BridgeLabz Training Repository**
 
 This repository contains my daily practice work across different topics and branches.  
 Currently, I am actively working on the **`core-java-practice`** branch.
