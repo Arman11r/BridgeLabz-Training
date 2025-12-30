@@ -6,7 +6,7 @@ This repository tracks my **Core Java practice** as part of BridgeLabz training,
 
 ---
 
-## 🌿 Active Branch: `oops`
+## 🌿 Active Branch: `dsa`
 
 All current work is maintained in the **`oops`** branch.
 
@@ -65,21 +65,35 @@ Practiced Java built-in functions and advanced string handling concepts.
 
 ---
 
-## 🛠️ OOPS Branch
+### 📌 24/12/25  
+Completed Java assignments on classes, objects, constructors, instance vs static variables, `this`, `static`, `final` keywords, and `instanceof` operator.  
+👉 [Java Class & Objects](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/java-class-and-objects)  
+👉 [Constructors & Keywords](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/Constructors-InstanceVsClassVariables-AccessModifiers)
 
 ---
 
-## 🗓️ Week 2 
+### 📌 25/12/25  
+Worked on OOP concepts including encapsulation, inheritance, and object-oriented design principles.  
+👉 [Encapsulation](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/encapsulation)  
+👉 [Inheritance](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/inheritance)  
+👉 [Object-Oriented Design](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/object-oriented-design)
 
-### 📌 23/12/25  
-Practiced Java classes, objects, constructors, and the difference between instance and class variables with access modifiers.  
+---
 
-👉 [Java Class & Objects](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/java-class-and-objects)  
-👉 [Constructors, Instance vs Class Variables & Access Modifiers](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/Constructors-InstanceVsClassVariables-AccessModifiers)
+### 📌 29/12/25  
+Created and worked on a separate DSA branch to begin structured Data Structures practice.  
+👉 [DSA Branch](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa)
 
+---
+
+### 📌 30/12/25  
+Implemented Data Structures using Java including Linked List, Stack, Queue, and HashMap.  
+👉 [Linked List](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa/linkedlist)  
+👉 [Stack–Queue–Hash](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa/stack-queue-hash)
+
+---
 ## 📂 Repository Structure
-
-```text
+```
 BridgeLabz-Training (core-java-practice branch)
 └── core-java-practice
     ├── gcr-codebase
@@ -98,7 +112,7 @@ BridgeLabz-Training (core-java-practice branch)
 
 ## 📝 Notes
 
-- Use the **branch selector** on GitHub to switch to `core-java-practice`.
+- Use the **branch selector** on GitHub to switch between `core-java-practice`, `oops`, and `dsa`.
 - Each topic folder contains Java source files with clear logic and inline comments.
 - Code is organized date-wise to reflect daily progress during BridgeLabz training.
 
@@ -106,6 +120,12 @@ BridgeLabz-Training (core-java-practice branch)
 
 ## 🔄 Next Updates
 
-- Continue deeper Core Java topics and problem-solving practice.
+- Continue advanced OOP concepts
+- Expand DSA implementations
+- Keep README updated with daily progress
+
+
+
+
 - Add more scenario-based and logic-driven programs.
 - Keep updating this README with direct links and daily summaries.
