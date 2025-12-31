@@ -20,77 +20,78 @@ All current work is maintained in the **`oops`** branch.
 
 ### 📌 16/12/25  
 Solved 5 LeetCode problems focusing on logic building and basic algorithmic thinking.  
-👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
-
+- leet-code-codebase
 ---
 
 ### 📌 17/12/25  
 Practiced introductory Core Java programs covering syntax, input/output, and basic logic.  
-👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-
+- programming-elements
 ---
 
 ### 📌 18/12/25  
 Worked on Programming Elements including variables, data types, operators, and basic I/O.  
-👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+- programming-elements
 
 ---
 
 ### 📌 19/12/25  
 Implemented Core Java Control Flow programs using conditions, loops, and switch-case.  
-👉 [View Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+- Control-flow
 
 ---
 
 ### 📌 20/12/25  
 Practiced array-based problems and solved scenario-based Core Java questions.  
-👉 [Arrays Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)  
-👉 [Scenario-Based Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenerio-based)
-
----
+- Arrays Folder
+- Scenario-Based Folder
 
 ## 🗓️ Week 2
 
 ### 📌 22/12/25  
 Implemented user-defined methods and practiced Core Java string manipulation programs.  
-👉 [Methods Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)  
-👉 [Strings Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+- Methods Folder
+- Strings Folder
 
 ---
 
 ### 📌 23/12/25  
 Practiced Java built-in functions and advanced string handling concepts.  
-👉 [Built-in Functions Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/EXTRA-built-in-functions)  
-👉 [Advanced Strings Folder](https://github.com/Arman11r/BridgeLabz-Training/tree/core-java-practice/core-java-practice/EXTRA-string)
-
----
+- Built-in Functions Folder
+- Advanced Strings Folder
 
 ### 📌 24/12/25  
 Completed Java assignments on classes, objects, constructors, instance vs static variables, `this`, `static`, `final` keywords, and `instanceof` operator.  
-👉 [Java Class & Objects](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/java-class-and-objects)  
-👉 [Constructors & Keywords](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/Constructors-InstanceVsClassVariables-AccessModifiers)
+- Java Class & Objects
+- Constructors & Keywords
 
 ---
 
 ### 📌 25/12/25  
 Worked on OOP concepts including encapsulation, inheritance, and object-oriented design principles.  
-👉 [Encapsulation](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/encapsulation)  
-👉 [Inheritance](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/inheritance)  
-👉 [Object-Oriented Design](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/object-oriented-design)
-
+- Encapsulation
+- Inheritance
+- Object-Oriented Design
 ---
 ## 🗓️ Week 3
 
 ### 📌 29/12/25  
 Created and worked on a separate DSA branch to begin structured Data Structures practice.  
-👉 [DSA Branch](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa)
+- DSA Branch
 
 ---
 
 ### 📌 30/12/25  
 Implemented Data Structures using Java including Linked List, Stack, Queue, and HashMap.  
-👉 [Linked List](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa/linkedlist)  
-👉 [Stack–Queue–Hash](https://github.com/Arman11r/BridgeLabz-Training/tree/dsa/stack-queue-hash)
+- Linked List
+- Stack–Queue–Hash
+
+---
+
+### 📌 31/12/25  
+Implemented File Reading operations,buffer operations and searching operations using Java including bufferreader,inputstreambuffer,streambuffer,linear seach,binarysearch,etc also completed employee wage computation program in oops branch.  
+- linear-and-binary-search
+- employee wage computation program
+
 
 ---
 ## 📂 Repository Structure
