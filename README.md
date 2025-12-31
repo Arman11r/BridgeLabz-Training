@@ -79,6 +79,7 @@ Worked on OOP concepts including encapsulation, inheritance, and object-oriented
 👉 [Object-Oriented Design](https://github.com/Arman11r/BridgeLabz-Training/tree/oops/oops/gcr-codebase/object-oriented-design)
 
 ---
+## 🗓️ Week 3
 
 ### 📌 29/12/25  
 Created and worked on a separate DSA branch to begin structured Data Structures practice.  
