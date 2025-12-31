@@ -81,9 +81,10 @@ Created and worked on a separate DSA branch to begin structured Data Structures 
 ---
 
 ### 📌 30/12/25  
-Implemented Data Structures using Java including Linked List, Stack, Queue, and HashMap.  
+Implemented Data Structures using Java including Linked List, Stack, Queue,sorting and HashMap.  
 - Linked List
 - Stack–Queue–Hash
+  sorting-algorithms
 
 ---
 
