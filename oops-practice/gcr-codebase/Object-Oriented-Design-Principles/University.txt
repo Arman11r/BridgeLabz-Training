@@ -1,0 +1,29 @@
+
+
+
+
+
++---------------------------------+                         +--------------------------------+
+|           University            |                         |           Department           |
++---------------------------------+                         +--------------------------------+
+| - universityName : String       |                         | - deptName : String            |
+| - departments : List<Department>| Composition (HAS-A)     | - deptCode : String            |
+| - faculty : List<Faculty>       |------------------------ +--------------------------------+
++---------------------------------+                         | + showDepartment() : void      |
+| + addDepartment() : void        |                         +--------------------------------+
+| + removeUniversity() : void     |
++---------------------------------+
+          ◇  
+          |
+    Aggregation (HAS-A)
+          |
+          |
++--------------------------------+
+|             Faculty            |
++--------------------------------+
+| - facultyId : int              |
+| - facultyName : String         |
+| - specialization : String      |
++--------------------------------+
+| + teach() : void               |
++--------------------------------+
