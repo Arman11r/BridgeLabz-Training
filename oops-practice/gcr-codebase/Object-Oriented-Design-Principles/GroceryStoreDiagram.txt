@@ -6,10 +6,6 @@ Sample Problem 2: Grocery Store Bill Generation Application
 1. Class Diagram
 -----------------------------------------------------
 
-description:
-this system is used to generate grocery bill for customer.
-customer buys many products and bill is generated.
-products belong to order strongly.
 
 classes used:
 - Customer
@@ -20,8 +16,6 @@ relationships:
 - Customer and Product has composition relationship
 - BillGenerator is used to calculate total bill
 
-composition is used because product cannot exist
-without customer order.
 
 class diagram (text format):
 
@@ -59,45 +53,41 @@ note:
 2. Object Diagram
 -----------------------------------------------------
 
-description:
-object diagram shows actual customer and products
-at a particular time.
 
 example:
 customer name is alice
 products purchased are apples and milk.
 
-object diagram (text format):
+object diagram :
 
+--------------------
 customer1 : Customer
--------------------
+---------------------
 name = "Alice"
-
+---------------------
+        |
+        | buys
+        |
+---------------------
 product1 : Product
-------------------
+----------------------
 productName = "Apples"
 quantity = 2 kg
 price = 3 per kg
+----------------------
 
+---------------------
 product2 : Product
-------------------
+--------------------
 productName = "Milk"
 quantity = 1 liter
 price = 2 per liter
-
------------------------------------------------------
+----------------------
+-----------------------
 3. Sequence Diagram
------------------------------------------------------
+-----------------------s
 
-description:
-sequence diagram shows how bill is generated.
-customer goes to checkout.
-billgenerator calculates total.
-total is shown to customer.
-
-actors:
-- Customer
-- BillGenerator
+sequencee
 
 sequence diagram (text format):
 
