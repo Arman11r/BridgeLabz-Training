@@ -12,7 +12,7 @@ public class UnionIntersection {
         Set<Integer> set2 = new HashSet<>();
         set2.add(3);
         set2.add(4);
-        set2.add(6);
+         set2.add(6);
 
         // union logic
         Set<Integer> unions=new HashSet<>(set1);
