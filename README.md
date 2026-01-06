@@ -6,7 +6,7 @@ This repository tracks my **Core Java practice** as part of BridgeLabz training,
 
 ---
 
-## 🌿 Active Branch: `dsa`
+## 🌿 Active Branch: `collections`
 
 All current work is maintained in the **`oops`** branch.
 
@@ -92,6 +92,29 @@ Implemented Data Structures using Java including Linked List, Stack, Queue,sorti
 Implemented File Reading operations,buffer operations and searching operations using Java including bufferreader,inputstreambuffer,streambuffer,linear seach,binarysearch,etc also completed employee wage computation program in oops branch.  
 - linear-and-binary-search
 - employee wage computation program
+
+---
+
+### 📌 02/01/26  
+Implemented Java Generics Questions in collections-practice branch 
+- Java Generics
+
+---
+
+## 🗓️ Week 4
+
+### 📌 05/01/26  
+Had my Review Session and completed review codes and pushed them in Review branch.
+- E-commerce Application
+- Character Frequency
+- Custom Exception
+- Encapsulation
+
+---
+
+### 📌 06/01/26  
+Implemented Collections Questions such as linked,set,queue,map and pushed them into collections-practice branch
+- collections
 
 
 ---
