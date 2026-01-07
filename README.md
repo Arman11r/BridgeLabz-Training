@@ -116,6 +116,10 @@ Had my Review Session and completed review codes and pushed them in Review branc
 Implemented Collections Questions such as linked,set,queue,map and pushed them into collections-practice branch
 - collections
 
+---
+### 📌 07/01/26  
+Implemented Java Streams Question with File Input, File Output,Image Reader, copy, paste,etc method
+-streams
 
 ---
 ## 📂 Repository Structure
