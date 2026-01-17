@@ -126,7 +126,35 @@ Implemented Java Streams Question with File Input, File Output,Image Reader, cop
 Implemented Java Exceptions with diffrent types like checked and unchecked exceptions and pushed them in collection-practice branch
 - exceptions
 
+---
+### 📌 09/01/26  
+Implemented Java regex and pushed them in collection-practice branch
+- regex
 
+
+---
+### 📌 12/01/26  
+Implemented Java Junit with diffrent types and pushed them in collection-practice branch
+- junit
+
+
+---
+### 📌 14/01/26  
+Did some Java scenerio based practice questions
+
+
+---
+### 📌 16/01/26  
+Implemented Java reflections and pushed them in collection-practice branch
+- reflections
+
+
+---
+### 📌 17/01/26  
+Implemented Java annotations and pushed them in collection-practice branch
+- annotations
+
+  
 ---
 ## 📂 Repository Structure
 ```
