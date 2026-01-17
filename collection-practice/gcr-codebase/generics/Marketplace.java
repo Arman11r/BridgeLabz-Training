@@ -9,7 +9,6 @@ abstract class Product
         this.price = price;
     }
 }
-
 // product types
 class Book extends Product {
     Book(String name,double price ) {
