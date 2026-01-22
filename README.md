@@ -6,7 +6,7 @@ This repository tracks my **Core Java practice** as part of BridgeLabz training,
 
 ---
 
-## 🌿 Active Branch: `collections`
+## 🌿 Active Branch: `io-programming-practice`
 
 All current work is maintained in the **`oops`** branch.
 
@@ -131,7 +131,7 @@ Implemented Java Exceptions with diffrent types like checked and unchecked excep
 Implemented Java regex and pushed them in collection-practice branch
 - regex
 
-
+## 🗓️ Week 5
 ---
 ### 📌 12/01/26  
 Implemented Java Junit with diffrent types and pushed them in collection-practice branch
@@ -154,6 +154,17 @@ Implemented Java reflections and pushed them in collection-practice branch
 Implemented Java annotations and pushed them in collection-practice branch
 - annotations
 
+## 🗓️ Week 6
+
+---
+### 📌 20/01/26  
+Implemented Java Csv file handling questions and pushed them in io-programming-practice branch
+- csv
+
+---
+### 📌 21/01/26  
+Implemented Json file handling questions and one scenerio based question of json censoring and pushed them in io-programming-practice branch
+- json
   
 ---
 ## 📂 Repository Structure
