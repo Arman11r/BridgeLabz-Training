@@ -39,6 +39,9 @@ public class LexicalTwist {
         if(sb.length()/2 <  count ){
             return helper.substring(0, Math.min(2, helper.length())).toUpperCase();
         }
+        else if (sb.length()/2 == count){
+            return "Vowel-Consonant are equal";
+        }
         else{
             return secondhelper.substring(0, Math.min(2, secondhelper.length())).toUpperCase();
         }
