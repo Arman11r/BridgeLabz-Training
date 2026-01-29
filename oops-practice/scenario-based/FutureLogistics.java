@@ -215,7 +215,7 @@ class Utility {
 }
 
 
-public class UserInterface {
+public class FutureLogistics {
 
     public static void main(String[] args) {
 
