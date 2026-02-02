@@ -1,0 +1,78 @@
+
+Singleton Pattern :
+
++---------------------------------------+
+|          LibraryCatalog               |
++---------------------------------------+
+| - instance : LibraryCatalog (static)  |
+| - books : List<Book>.                 |
+| - observers : List<Observer>.         |
++---------------------------------------+
+| - LibraryCatalog()                    |
+| + getInstance() : LibraryCatalog      |
+| + addBook(Book)                       |
+| + addObserver(Observer)               |
+| + removeObserver(Observer)            |
+| - notifyUsers(msg)                    |
++---------------------------------------+
+
+
+
+Factory Pattern : 
+
+            <<interface>>
+            User
+            + showRole()
+            + update()
+
+                             
+       |           |           |
+   Student      Faculty     Librarian
+
+    +----------------------+
+    |     UserFactory      |
+    +----------------------+
+    | + createUser(type)   |
+    +----------------------+
+
+
+
+    Observer Pattern : 
+
+        <<Subject>>
+        LibraryCatalog
+        + addObserver()
+        + removeObserver()
+        + notifyUsers()
+
+              1
+              |
+              | 
+              ▼
+
+           <<Observer>>
+             User
+           + update(msg)    
+
+
+
+Builder :
+        +--------------------+
+        |        Book        |
+        +--------------------+
+        | - title.           |
+        | - author           |
+        | - edition          |
+        | - genre            |
+        +--------------------+
+
+                  ▲
+                  |
+        +--------------------+
+        |    BookBuilder     |
+        +--------------------+
+        | + author()         |
+        | + edition()        |
+        | + genre()          |
+        | + build()          |
+        +--------------------+
