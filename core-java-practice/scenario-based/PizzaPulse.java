@@ -42,6 +42,7 @@ class PizzaUtil{
         }
         if(pizzaType.equals("Margherita")){
             toppingpercentage=10;
+
         }else if(pizzaType.equals("Pepperoni")){
             toppingpercentage=20;
         }else if(pizzaType.equals("Veggie")){
@@ -55,6 +56,7 @@ class PizzaUtil{
         double toppingChage = (basecost*toppingpercentage)/100;
         double deliveryFee=100;
         return (basecost+toppingChage+deliveryFee);
+
 
     }
 }
