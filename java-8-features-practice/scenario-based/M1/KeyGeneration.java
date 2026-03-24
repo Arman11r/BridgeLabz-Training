@@ -1,6 +1,5 @@
-package practice;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class KeyGeneration {
 	public static void main(String[] args) {
