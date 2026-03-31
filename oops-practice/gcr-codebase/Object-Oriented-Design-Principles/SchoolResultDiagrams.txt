@@ -1,0 +1,101 @@
+=====================================================
+Sample Problem 1: School Results Application
+===================================================
+
+1. Class Diagram
+-----------------------------------------------------
+
+
+
+classes 
+- Student
+
+- Subject
+- GradeCalculator
+
+relationships:
+- Student and Subject has aggregation relation
+- GradeCalculator uses Student to calculate grade
+
+
+
+class diagram ::::
+
+
+        +------------------+
+        |     Student      |
+        +------------------+
+        | - name           |
+        | - rollNumber     |
+        +------------------+
+        | + viewResult()   |
+        +------------------+
+                ◇
+                | aggregation
+                |
+        +------------------+
+        |     Subject      |
+        +------------------+
+        | - subjectName    |
+        | - marks          |
+        +------------------+
+
+        +------------------------+
+        |   GradeCalculator      |
+        +------------------------+
+        | + calculateGrade()     |
+        +------------------------+
+                   ^
+                   |
+                 uses
+
+
+◇ symbol shows aggregation relationship
+
+
+2. Object Diagram
+-----------------------------------------------------
+
+
+object diagram shows real objects at a particular time.
+
+
+
+object diagram :
+-------------------------
+student1 : Student
+-----------------------
+name = "John"
+--------------------------
+subject1 : Subject
+------------------------
+subjectName = "Maths"
+marks = 90
+------------------------
+subject2 : Subject
+-------------------------
+subjectName = "Science"
+marks = 85
+
+3. Sequence Diagram
+-----------------------------------------------------
+
+
+
+scenario:
+student wants to see his grade.
+
+
+sequence diagram :
+
+Student            GradeCalculator
+   |                       |
+   | requestGrade()        |
+   |---------------------> |
+   |                       |
+   | calculateGrade()      |
+   |<--------------------- |
+   |                       |
+   | displayGrade()        |
+
+

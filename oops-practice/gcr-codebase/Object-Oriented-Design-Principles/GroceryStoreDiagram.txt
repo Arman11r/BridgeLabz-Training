@@ -1,0 +1,103 @@
+=====================================================
+Sample Problem 2: Grocery Store Bill Generation Application
+=====================================================
+
+-----------------------------------------------------
+1. Class Diagram
+-----------------------------------------------------
+
+
+classes used:
+- Customer
+- Product
+- BillGenerator
+
+relationships:
+- Customer and Product has composition relationship
+- BillGenerator is used to calculate total bill
+
+
+class diagram (text format):
+
+        +------------------+
+        |    Customer      |
+        +------------------+
+        | - name           |
+        +------------------+
+        | + checkout()     |
+        +------------------+
+                ◆
+                | composition
+                |
+        +------------------+
+        |     Product      |
+        +------------------+
+        | - productName    |
+        | - price          |
+        | - quantity       |
+        +------------------+
+
+        +----------------------+
+        |   BillGenerator      |
+        +----------------------+
+        | + calculateTotal()   |
+        +----------------------+
+                    ^
+                    |
+                  uses
+
+note:
+◆ symbol shows composition relationship
+
+-----------------------------------------------------
+2. Object Diagram
+-----------------------------------------------------
+
+
+example:
+customer name is alice
+products purchased are apples and milk.
+
+object diagram :
+
+--------------------
+customer1 : Customer
+---------------------
+name = "Alice"
+---------------------
+        |
+        | buys
+        |
+---------------------
+product1 : Product
+----------------------
+productName = "Apples"
+quantity = 2 kg
+price = 3 per kg
+----------------------
+
+---------------------
+product2 : Product
+--------------------
+productName = "Milk"
+quantity = 1 liter
+price = 2 per liter
+----------------------
+-----------------------
+3. Sequence Diagram
+-----------------------s
+
+sequencee
+
+sequence diagram (text format):
+
+Customer              BillGenerator
+   |                         |
+   | checkout()              |
+   |-----------------------> |
+   |                         |
+   | calculateTotal()        |
+   |<----------------------- |
+   |                         |
+   | displayBill()           |
+
