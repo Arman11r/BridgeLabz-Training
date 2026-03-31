@@ -1,5 +1,20 @@
+
 .metadata/
 .DS_Store
 .idea/
 .vscode/
+
+
+
+
+.class
+
+
+*.class
+
+
+*.log
+
+.vscode/
+*.iml
 
