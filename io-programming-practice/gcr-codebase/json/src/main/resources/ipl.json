@@ -1,0 +1,38 @@
+[
+  {
+    "match_id": 101,
+    "team1": "Mumbai Indians",
+    "team2": "Chennai Super Kings",
+    "score_team1": 178,
+    "score_team2": 182,
+    "winner": "Chennai Super Kings",
+    "player_of_match": "MS Dhoni"
+  },
+  {
+    "match_id": 102,
+    "team1": "Royal Challengers Bangalore",
+    "team2": "Delhi Capitals",
+    "score_team1": 200,
+    "score_team2": 190,
+    "winner": "Royal Challengers Bangalore",
+    "player_of_match": "Virat Kohli"
+  },
+  {
+    "match_id": 103,
+    "team1": "Kolkata Knight Riders",
+    "team2": "Sunrisers Hyderabad",
+    "score_team1": 165,
+    "score_team2": 160,
+    "winner": "Kolkata Knight Riders",
+    "player_of_match": "Andre Russell"
+  },
+  {
+    "match_id": 104,
+    "team1": "Rajasthan Royals",
+    "team2": "Punjab Kings",
+    "score_team1": 175,
+    "score_team2": 170,
+    "winner": "Rajasthan Royals",
+    "player_of_match": "Jos Buttler"
+  }
+]

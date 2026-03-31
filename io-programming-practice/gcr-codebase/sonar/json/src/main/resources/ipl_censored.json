@@ -1,0 +1,33 @@
+[ {
+  "match_id" : 101,
+  "team1" : "Mumbai ***",
+  "team2" : "Chennai ***",
+  "score_team1" : 178,
+  "score_team2" : 182,
+  "winner" : "Chennai Super Kings",
+  "player_of_match" : "REDACTED"
+}, {
+  "match_id" : 102,
+  "team1" : "Royal ***",
+  "team2" : "Delhi ***",
+  "score_team1" : 200,
+  "score_team2" : 190,
+  "winner" : "Royal Challengers Bangalore",
+  "player_of_match" : "REDACTED"
+}, {
+  "match_id" : 103,
+  "team1" : "Kolkata ***",
+  "team2" : "Sunrisers ***",
+  "score_team1" : 165,
+  "score_team2" : 160,
+  "winner" : "Kolkata Knight Riders",
+  "player_of_match" : "REDACTED"
+}, {
+  "match_id" : 104,
+  "team1" : "Rajasthan ***",
+  "team2" : "Punjab ***",
+  "score_team1" : 175,
+  "score_team2" : 170,
+  "winner" : "Rajasthan Royals",
+  "player_of_match" : "REDACTED"
+} ]
