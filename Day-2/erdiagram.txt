@@ -1,0 +1,70 @@
++------------------+
+|     patients     |
++------------------+
+| patient_id (PK)  |
+| patient_name     |
+| age              |
+| gender           |
++------------------+
+         |
+         | 1
+         |
+         | M
++----------------------+
+|    appointments      |
++----------------------+
+| appointment_id (PK)  |
+| patient_id (FK)      |
+| doctor_id (FK)       |
+| appointment_date     |
+| status               |
++----------------------+
+         |
+         | M
+         |
+         | 1
++------------------+
+|     doctors      |
++------------------+
+| doctor_id (PK)   |
+| doctor_name      |
+| specialization   |
++------------------+
+         |
+         | M
+         |
+         | M
++------------------+
+|   doctor_room    |
++------------------+
+| doctor_id (FK)   |
+| room_id (FK)     |
++------------------+
+         |
+         | M
+         |
+         | 1
++------------------+
+|      rooms       |
++------------------+
+| room_id (PK)     |
+| room_number      |
+| floor            |
+| capacity         |
++------------------+
+
++----------------------+
+|    patient_phones    |
++----------------------+
+| phone_id (PK)        |
+| patient_id (FK)      |
+| phone_number         |
++----------------------+
+         ^
+         |
+         | M
+         |
+         | 1
++------------------+
+|     patients     |
++------------------+
