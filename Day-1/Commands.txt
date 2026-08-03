@@ -1,0 +1,49 @@
+
+CREATE DATABASE college_db;
+
+USE college_db;
+
+CREATE TABLE students(
+ student_id INT AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(50) NOT NULL,
+ age INT,
+ course VARCHAR(40),
+ email VARCHAR(100) UNIQUE
+);
+
+SHOW TABLES();
+INSERT INTO students(name,age,course,email)
+VALUES
+('Arman',22,'B Tech','arman11r@gmail.com');
+
+SELECT * FROM students;
+
+INSERT INTO students(name,age,course,email)
+VALUES
+('Rahul',21,'BCA','rahul583@gmail.com'),
+('Priya',20,'BBA','priyagupta27@gmail.com');
+
+SELECT * FROM students;
+UPDATE students
+SET age=23
+WHERE student_id=1;
+SELECT * FROM students;
+UPDATE students
+SET course='Computer Science'
+WHERE student_id=2;
+ALTER TABLE students
+ADD phone VARCHAR(15);
+ALTER TABLE students
+MODIFY phone VARCHAR(20);
+
+ALTER TABLE students
+CHANGE phone mobile VARCHAR(20);
+
+SELECT * FROM students;
+DELETE FROM students
+WHERE student_id=3;
+SELECT * FROM students;
+UPDATE students
+SET age=24
+WHERE student_id=1;
+SELECT * FROM students;
