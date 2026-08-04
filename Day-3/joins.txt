@@ -1,0 +1,118 @@
+SELECT p.name, d.name AS doctor, a.appointment_date
+FROM Patients p
+JOIN Appointments a ON p.patient_id = a.patient_id
+JOIN Doctors d ON a.doctor_id = d.doctor_id;
+
+SELECT p.name, a.appointment_date
+FROM Patients p
+LEFT JOIN Appointments a
+ON p.patient_id = a.patient_id;
+
+SELECT p.name
+FROM Patients p
+LEFT JOIN Appointments a
+ON p.patient_id = a.patient_id
+WHERE a.appointment_id IS NULL;
+
+SELECT d.name, a.appointment_date
+FROM Appointments a
+RIGHT JOIN Doctors d
+ON a.doctor_id = d.doctor_id;
+
+SELECT p.name, a.appointment_date
+FROM Patients p
+LEFT JOIN Appointments a
+ON p.patient_id = a.patient_id
+UNION
+SELECT p.name, a.appointment_date
+FROM Patients p
+RIGHT JOIN Appointments a
+ON p.patient_id = a.patient_id;
+
+SELECT d.name, m.name AS mentor
+FROM Doctors d
+JOIN Doctors m
+ON d.mentor_id = m.doctor_id;
+
+SELECT p.name, d.name, s.name, a.appointment_date
+FROM Appointments a
+JOIN Patients p ON a.patient_id = p.patient_id
+JOIN Doctors d ON a.doctor_id = d.doctor_id
+JOIN Specializations s ON d.specialization_id = s.specialization_id;
+
+DELIMITER //
+CREATE PROCEDURE GetAppointments(IN pid INT)
+BEGIN
+SELECT appointment_date
+FROM Appointments
+WHERE patient_id = pid;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE PatientCount(OUT total INT)
+BEGIN
+SELECT COUNT(*) INTO total
+FROM Patients;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE Discount(INOUT amt DECIMAL(10,2))
+BEGIN
+SET amt = amt - amt * 0.10;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE AddPatient(IN pname VARCHAR(100), IN pphone VARCHAR(15))
+BEGIN
+INSERT INTO Patients(name, phone)
+VALUES(pname, pphone);
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER before_insert_app
+BEFORE INSERT ON Appointments
+FOR EACH ROW
+BEGIN
+IF NEW.appointment_date < CURDATE() THEN
+SIGNAL SQLSTATE '45000'
+SET MESSAGE_TEXT = 'Invalid Date';
+END IF;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER after_insert_app
+AFTER INSERT ON Appointments
+FOR EACH ROW
+BEGIN
+INSERT INTO AuditLog(action, table_name, record_id, action_time)
+VALUES('INSERT','Appointments',NEW.appointment_id,NOW());
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER before_update_bill
+BEFORE UPDATE ON Billing
+FOR EACH ROW
+BEGIN
+IF NEW.payment_status='Paid' THEN
+SET NEW.bill_date = NOW();
+END IF;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE TRIGGER after_update_app
+AFTER UPDATE ON Appointments
+FOR EACH ROW
+BEGIN
+IF NEW.status='Completed' THEN
+INSERT INTO VisitHistory(appointment_id, visit_date)
+VALUES(NEW.appointment_id, NOW());
+END IF;
+END //
+DELIMITER ;
