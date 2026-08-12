@@ -1,0 +1,106 @@
+CREATE DATABASE GLAdb;
+USE GLAdb;
+
+CREATE TABLE Departments (
+    department_id INT PRIMARY KEY AUTO_INCREMENT,
+    department_name VARCHAR(100),
+    hod_name VARCHAR(100)
+);
+
+INSERT INTO Departments (department_name, hod_name) VALUES
+('Computer Science and Engineering', 'Dr. Rajesh Sharma'),
+('Information Technology', 'Dr. Anil Kumar'),
+('Mechanical Engineering', 'Dr. Amit Verma'),
+('Electronics and Communication', 'Dr. Neha Singh'),
+('Civil Engineering', 'Dr. Ravi Gupta');
+
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    admission_year INT,
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES Departments(department_id)
+);
+
+INSERT INTO Students (name, email, phone, admission_year, department_id) VALUES
+('Arman Ahmed', 'arman@gmail.com', '9876543210', 2023, 1),
+('Rahul Sharma', 'rahul@gmail.com', '9876543211', 2023, 1),
+('Priya Singh', 'priya@gmail.com', '9876543212', 2024, 2),
+('Aman Verma', 'aman@gmail.com', '9876543213', 2023, 3),
+('Riya Gupta', 'riya@gmail.com', '9876543214', 2024, 1);
+
+CREATE TABLE Faculty (
+    faculty_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES Departments(department_id)
+);
+
+INSERT INTO Faculty (name, email, department_id) VALUES
+('Dr. Suresh Kumar', 'suresh@gla.ac.in', 1),
+('Dr. Pooja Sharma', 'pooja@gla.ac.in', 1),
+('Dr. Mohit Singh', 'mohit@gla.ac.in', 2),
+('Dr. Ankit Verma', 'ankit@gla.ac.in', 3);
+
+CREATE TABLE Semesters (
+    semester_id INT PRIMARY KEY AUTO_INCREMENT,
+    semester_number INT,
+    academic_year VARCHAR(20)
+);
+
+INSERT INTO Semesters (semester_number, academic_year) VALUES
+(1, '2023-24'),
+(2, '2023-24'),
+(3, '2024-25'),
+(4, '2024-25'),
+(5, '2025-26'),
+(6, '2025-26'),
+(7, '2026-27'),
+(8, '2026-27');
+
+CREATE TABLE Subjects (
+    subject_id INT PRIMARY KEY AUTO_INCREMENT,
+    subject_code VARCHAR(20),
+    subject_name VARCHAR(100),
+    credits INT,
+    department_id INT,
+    semester_id INT,
+    faculty_id INT,
+    FOREIGN KEY (department_id) REFERENCES Departments(department_id),
+    FOREIGN KEY (semester_id) REFERENCES Semesters(semester_id),
+    FOREIGN KEY (faculty_id) REFERENCES Faculty(faculty_id)
+);
+
+INSERT INTO Subjects
+(subject_code, subject_name, credits, department_id, semester_id, faculty_id)
+VALUES
+('CS101', 'Programming in C', 4, 1, 1, 1),
+('CS102', 'Data Structures', 4, 1, 2, 1),
+('CS201', 'Database Management System', 4, 1, 3, 2),
+('CS202', 'Operating Systems', 4, 1, 4, 2),
+('CS301', 'Computer Networks', 4, 1, 5, 1),
+('CS302', 'Software Engineering', 3, 1, 6, 2),
+('CS401', 'Artificial Intelligence', 4, 1, 7, 1),
+('CS402', 'Machine Learning', 4, 1, 8, 2),
+('IT101', 'Web Development', 4, 2, 1, 3),
+('ME101', 'Engineering Mechanics', 4, 3, 1, 4);
+
+CREATE TABLE Syllabus (
+    syllabus_id INT PRIMARY KEY AUTO_INCREMENT,
+    subject_id INT,
+    unit_number INT,
+    topic VARCHAR(200),
+    FOREIGN KEY (subject_id) REFERENCES Subjects(subject_id)
+);
+
+INSERT INTO Syllabus (subject_id, unit_number, topic) VALUES
+(1, 1, 'Introduction to java'),
+(1, 1, 'Variables and Data Types'),
+(1, 2, 'Conditional Statements'),
+(1, 2, 'Loops'),
+
+
+
