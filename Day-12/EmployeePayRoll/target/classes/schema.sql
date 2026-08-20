@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS employees (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    department VARCHAR(100) NOT NULL,
+    basic_salary DECIMAL(12,2) NOT NULL,
+    allowances DECIMAL(12,2) NOT NULL DEFAULT 0,
+    tax_percent DECIMAL(5,2) NOT NULL DEFAULT 0
+);
